@@ -4,14 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+tabulate = "*"
+pytest = "*"
+twine = "*"
+requests-mock = "*"
+xlsxwriter = "*"
 
 [packages]
 requests-oauthlib = "*"
-sphinx = "*"
-sphinx-rtd-theme = "*"
-flask = "*"
-twine = "*"
-wheel = "*"
-ipython = "*"
-requests-mock = "*"
-pytest = "*"
+pandas = "*"
+Flask = "*"
